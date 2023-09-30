@@ -2,10 +2,10 @@ version: "3.8"
 
 services:
   app:
-    container_name: docker-react-c
-    image: docker-react-i
+    container_name: todo-fe-c
+    image: todo-fe-i
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "80:80"
